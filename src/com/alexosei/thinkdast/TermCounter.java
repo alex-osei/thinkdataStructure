@@ -41,7 +41,14 @@ public class TermCounter {
      */
     public int size() {
         // TODO: FILL THIS IN!
-        return 0;
+
+        int total = 0;
+        for(Integer value : map.values()){
+            if(value != null) {
+                total += value.intValue();
+            }
+        }
+        return total;
     }
 
     /**
@@ -65,6 +72,7 @@ public class TermCounter {
         // we already have a tree iterator, let's use it.
         for (Node node: new WikiNodeIterable(root)) {
             if (node instanceof TextNode) {
+                //System.out.println(node);
                 processText(((TextNode) node).text());
             }
         }

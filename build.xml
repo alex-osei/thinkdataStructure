@@ -96,13 +96,13 @@
         <java classname="com.allendowney.thinkdast.HelloJsoup" failonerror="true" fork="yes">
             <classpath refid="ThinkDaSt.classpath"/>
         </java>
-    </target>
+    </target-->
     <target name="Index">
-        <java classname="com.allendowney.thinkdast.Index" failonerror="true" fork="yes">
-            <classpath refid="ThinkDaSt.classpath"/>
+        <java classname="com.alexosei.thinkdast.Index" failonerror="true" fork="yes">
+            <classpath refid="dataStructure.classpath"/>
         </java>
     </target>
-    <target name="IndexTest">
+    <!--target name="IndexTest">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
@@ -282,13 +282,13 @@
             <test name="com.allendowney.thinkdast.MyTreeMapTest" todir="${junit.output.dir}"/>
             <classpath refid="ThinkDaSt.classpath"/>
         </junit>
-    </target>
+    </target-->
     <target name="ProfileListAdd">
-        <java classname="com.allendowney.thinkdast.ProfileListAdd" failonerror="true" fork="yes">
-            <classpath refid="ThinkDaSt.classpath"/>
+        <java classname="com.alexosei.thinkdast.ProfileListAdd" failonerror="true" fork="yes">
+            <classpath refid="dataStructure.classpath"/>
         </java>
     </target>
-    <target name="ProfileMapPut">
+    <!--target name="ProfileMapPut">
         <java classname="com.allendowney.thinkdast.ProfileMapPut" failonerror="true" fork="yes">
             <classpath refid="ThinkDaSt.classpath"/>
         </java>
@@ -307,21 +307,21 @@
         <java classname="com.allendowney.thinkdast.SillyString" failonerror="true" fork="yes">
             <classpath refid="ThinkDaSt.classpath"/>
         </java>
-    </target>
+    </target-->
     <target name="TermCounter">
-        <java classname="com.allendowney.thinkdast.TermCounter" failonerror="true" fork="yes">
-            <classpath refid="ThinkDaSt.classpath"/>
+        <java classname="com.alexosei.thinkdast.TermCounter" failonerror="true" fork="yes">
+            <classpath refid="dataStructure.classpath"/>
         </java>
     </target>
     <target name="TermCounterTest">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="com.allendowney.thinkdast.TermCounterTest" todir="${junit.output.dir}"/>
-            <classpath refid="ThinkDaSt.classpath"/>
+            <test name="com.alexosei.thinkdast.TermCounterTest" todir="${junit.output.dir}"/>
+            <classpath refid="dataStructure.classpath"/>
         </junit>
     </target>
-    <target name="WikiCrawler">
+    <!--target name="WikiCrawler">
         <java classname="com.allendowney.thinkdast.WikiCrawler" failonerror="true" fork="yes">
             <classpath refid="ThinkDaSt.classpath"/>
         </java>
@@ -333,31 +333,31 @@
             <test name="com.allendowney.thinkdast.WikiCrawlerTest" todir="${junit.output.dir}"/>
             <classpath refid="ThinkDaSt.classpath"/>
         </junit>
-    </target>
+    </target-->
     <target name="WikiFetcher">
-        <java classname="com.allendowney.thinkdast.WikiFetcher" failonerror="true" fork="yes">
-            <classpath refid="ThinkDaSt.classpath"/>
+        <java classname="com.alexosei.thinkdast.WikiFetcher" failonerror="true" fork="yes">
+            <classpath refid="dataStructure.classpath"/>
         </java>
     </target>
     <target name="WikiNodeExample">
-        <java classname="com.allendowney.thinkdast.WikiNodeExample" failonerror="true" fork="yes">
-            <classpath refid="ThinkDaSt.classpath"/>
+        <java classname="com.alexosei.thinkdast.WikiNodeExample" failonerror="true" fork="yes">
+            <classpath refid="dataStructure.classpath"/>
         </java>
     </target>
     <target name="WikiParserTest">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="com.allendowney.thinkdast.WikiParserTest" todir="${junit.output.dir}"/>
-            <classpath refid="ThinkDaSt.classpath"/>
+            <test name="com.alexosei.thinkdast.WikiParserTest" todir="${junit.output.dir}"/>
+            <classpath refid="dataStructure.classpath"/>
         </junit>
     </target>
     <target name="WikiPhilosophy">
-        <java classname="com.allendowney.thinkdast.WikiPhilosophy" failonerror="true" fork="yes">
-            <classpath refid="ThinkDaSt.classpath"/>
+        <java classname="com.alexosei.thinkdast.WikiPhilosophy" failonerror="true" fork="yes">
+            <classpath refid="dataStructure.classpath"/>
         </java>
     </target>
-    <target name="WikiSearch">
+    <!--target name="WikiSearch">
         <java classname="com.allendowney.thinkdast.WikiSearch" failonerror="true" fork="yes">
             <classpath refid="ThinkDaSt.classpath"/>
         </java>

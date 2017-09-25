@@ -18,5 +18,17 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/ivy.xml" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/ivy.xml" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="ivy" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

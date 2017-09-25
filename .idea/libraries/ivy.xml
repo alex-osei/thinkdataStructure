@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ivy">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/ivy.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/ivy.xml" recursive="false" />
+  </library>
+</component>
